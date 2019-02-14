@@ -1,6 +1,10 @@
 <div>
   <h1 align="center">{{title}}</h1>
-  <app-heroes></app-heroes>
+  <nav>
+    <a routerLinkActive="active" routerLink="/dashboard">Dashboard</a>
+    <a routerLinkActive="active" routerLink="/heroes">Heroes</a>
+  </nav>
+  <router-outlet></router-outlet>
   <app-messsage></app-messsage>
 </div>
 
